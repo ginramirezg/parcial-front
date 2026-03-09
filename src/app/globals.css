@@ -40,3 +40,37 @@ a {
     color-scheme: dark;
   }
 }
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.CocktailList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+}
+
+.Cocktail {
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.Cocktail img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
